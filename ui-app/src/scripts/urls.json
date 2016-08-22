@@ -1,0 +1,37 @@
+{
+    "es": {
+        "list": "preguntas/:role",
+        "listByItem": "preguntas/:role/articulo/:itemId",
+        "quantity": "preguntas/:role/:itemId/cantidad",
+        "questionDetail": "preguntas/vendedor/:questionId",
+        "sellerDeleteQuestion": "preguntas/vendedor/:questionId/eliminar",
+        "listByDays": "preguntas/comprador/ultimos-:days-dias",
+        "ask": "preguntas/comprador/:itemId",
+        "buyerDeleteQuestion": "preguntas/comprador/:itemId/eliminar",
+        "denounce": "preguntas/comprador/:questionId/denunciar",
+        "tips": "preguntas/vendedor/tips"
+    },
+    "pt": {
+        "list": "perguntas/:role",
+        "listByItem": "perguntas/:role/produto/:itemId",
+        "quantity": "perguntas/:role/:itemId/quantidade",
+        "questionDetail": "perguntas/vendedor/:questionId",
+        "sellerDeleteQuestion": "perguntas/vendedor/:questionId/excluir",
+        "listByDays": "perguntas/comprador/ultimos-:days-dias",
+        "ask": "perguntas/comprador/:itemId",
+        "buyerDeleteQuestion": "perguntas/comprador/:itemId/excluir",
+        "denounce": "perguntas/comprador/:questionId/denuncie-o",
+        "tips": "perguntas/vendedor/tips"
+    },
+    "no-js": {
+        "list": "/:role_questions",
+        "listByItem": "/:role_questions/item/:itemId",
+        "quantity": "/:role_questions/:itemId/quantity",
+        "questionDetail": "/seller_questions/:questionId",
+        "sellerDeleteQuestion": "/seller_questions/:questionId/delete",
+        "listByDays": "/buyer_questions/last-:days-dias",
+        "ask": "/buyer_questions/:itemId",
+        "buyerDeleteQuestion": "/buyer_questions/:itemId/delete",
+        "denounce": "/buyer_questions/:questionId/denounce"
+    }
+}

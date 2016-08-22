@@ -1,0 +1,19 @@
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{java,groovy,gsp}]
+indent_style = tab
+
+[*.json]
+indent_size = 2
+
+[{Makefile,makefile}]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false

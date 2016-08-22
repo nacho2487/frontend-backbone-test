@@ -1,0 +1,9 @@
+@import '../../pages/main/main__small';
+
+@media (min-width: 768px) {
+    @import '../../pages/main/main__medium';
+}
+
+@media (min-width: 1024px) {
+    @import '../../pages/main/main__large';
+}

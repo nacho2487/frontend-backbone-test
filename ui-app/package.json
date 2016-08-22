@@ -1,0 +1,53 @@
+{
+  "name": "frontend-backbone-test",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "author": "frontend@mercadolibre.com",
+  "scripts": {
+    "start": "./node_modules/.bin/serve .",
+    "build": "./node_modules/.bin/gulp build",
+    "dist": "./node_modules/.bin/gulp dist",
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS",
+    "install-selenium": "./node_modules/selenium-standalone/bin/selenium-standalone install",
+    "nightwatch": "./node_modules/.bin/nightwatch",
+    "gh-pages": "./node_modules/.bin/gulp deploy:gh-pages",
+    "swift": "./node_modules/.bin/gulp deploy:swift"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nacho2487/frontend-backbone-test"
+  },
+  "homepage": "https://github.com/nacho2487/frontend-backbone-test",
+  "bugs": {
+    "url": "https://github.com/nacho2487/frontend-backbone-test/issues"
+  },
+  "dependencies": {
+    "ui-navigation": "1.1.1"
+  },
+  "devDependencies": {
+    "backbone": "1.2.3",
+    "backbone.marionette": "2.4.4",
+    "jquery": "2.2.1",
+    "json2": "0.4.0",
+    "underscore": "1.8.3",
+    "chai": "3.2.0",
+    "chai-spies": "0.7.0",
+    "deepmerge": "0.2.10",
+    "gulp": "3.9.1",
+    "handlebars": "4.0.5",
+    "karma": "0.13.9",
+    "karma-chai": "0.1.0",
+    "karma-chai-spies": "0.1.4",
+    "karma-coverage": "0.5.2",
+    "karma-mocha": "0.2.0",
+    "karma-mocha-reporter": "1.1.1",
+    "karma-phantomjs-launcher": "0.2.1",
+    "mocha": "2.3.2",
+    "nightwatch": "0.8.18",
+    "phantomjs": "1.9.16",
+    "selenium-standalone": "4.4.0",
+    "serve": "1.4.0",
+    "ui-gulp_tasks": "1.6.0"
+  }
+}

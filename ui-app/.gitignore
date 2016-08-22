@@ -1,0 +1,6 @@
+node_modules
+reports
+.DS_Store
+*.log
+ui-build
+ui-dist
